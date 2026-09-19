@@ -1,12 +1,26 @@
-# Duogami
-
-A minimalist origami workshop for iPhone Duo. A warm work surface,
-two-sided paper, visible creases and soft shadows between layers.
-
-<p>
-  <img src="Documentation/collection.png" width="49%" alt="Duogami collection">
-  <img src="Documentation/result.png" width="49%" alt="Finished paper puppy">
+<p align="center">
+  <img src=".github/images/icon.png" width="128" alt="Duogami icon">
 </p>
+
+<h1 align="center">Duogami</h1>
+
+<p align="center">
+  A minimalist origami workshop for the foldable <b>iPhone Duo</b>. Fold the phone to fold the paper.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/iOS-27.1+-blue.svg" alt="iOS 27.1+">
+  <img src="https://img.shields.io/badge/Xcode-27.1+-blue.svg" alt="Xcode 27.1+">
+  <img src="https://img.shields.io/badge/Swift-6-orange.svg" alt="Swift 6">
+  <img src="https://img.shields.io/badge/UI-SwiftUI-purple.svg" alt="SwiftUI">
+</p>
+
+<p align="center">
+  <img src=".github/images/collection.png" width="400" alt="Duogami lesson collection on a partially folded iPhone Duo in the simulator">
+  <img src=".github/images/lesson.png" width="400" alt="Paper Friend lesson with the fold aligned to the iPhone Duo hinge">
+</p>
+
+A warm work surface, two-sided paper, visible creases and soft shadows between layers.
 
 ## First working version
 
@@ -68,6 +82,8 @@ Sources/
     WorkshopView.swift      # Workshop, hinge input, onboarding and result
     PaperCanvas.swift       # Fold projection, materials and shadows
     HistoryView.swift       # Review of own diagram without modifying the work
+  Resources/
+    Assets.xcassets         # App icon
   DuogamiApp.swift
 Tests/
   CoreTests.swift
